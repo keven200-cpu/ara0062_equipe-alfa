@@ -21,7 +21,7 @@ valores e um formulário de contato.
 | Francoarlesson Marcos de Faria | 202602672007 | @ | integrante |
 | Leodiney da Assunpção Fernandes Filho | 2026xxxxx | @ | integrante |
 | Jéssica Iara José de Souza | 202601553453 | @ | integrante |
-| Isabela Alves Barbosa | 2026202603482121 | @ | integrante |
+| Isabela Alves Barbosa | 202603482121 | @ | integrante |
 | Júlia Fernandes Miranda Cruz | 202602634503 | @ | integrante |
 | Gustavo Henrique Sampaio Silva | 202603014258 | @ | integrante |
 
