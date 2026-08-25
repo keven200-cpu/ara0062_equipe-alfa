@@ -18,12 +18,12 @@ valores e um formulário de contato.
 | Nome completo | Matrícula | GitHub | Papel |
 |---|---|---|---|
 | Keven Wallace Miranda Batista | 202603039145 | @kevenwm3376 | **lider** |
-| Francoarlesson Marcos de Faria | 202602672007 | @cadu-ramos | integrante |
-| Leodiney da Assunpção Fernandes Filho | 2026xxxxx | @dani-prado | integrante |
-| Jéssica Iara José de Souza | 2026xxxxx | @felipeac | integrante |
-| Isabela Alves Barbosa | 2026xxxxx | @marinaslima | integrante |
-| Júlia Fernandes Miranda Cruz | 2026xxxxx | @rafaelalves | integrante |
-| Gustavo Henrique Sampaio Silva | 2026xxxxx | @rafaelalves | integrante |
+| Francoarlesson Marcos de Faria | 202602672007 | @ | integrante |
+| Leodiney da Assunpção Fernandes Filho | 2026xxxxx | @ | integrante |
+| Jéssica Iara José de Souza | 202601553453 | @ | integrante |
+| Isabela Alves Barbosa | 2026202603482121 | @ | integrante |
+| Júlia Fernandes Miranda Cruz | 202602634503 | @ | integrante |
+| Gustavo Henrique Sampaio Silva | 202603014258 | @ | integrante |
 
 *Cada integrante acrescenta a **sua própria linha** nesta tabela, pelo GitHub.
 Esse é o commit que registra a sua participação.*
