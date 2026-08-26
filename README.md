@@ -14,7 +14,7 @@ valores e um formulário de contato.
 
 | Nome completo | Matrícula | GitHub | Papel |
 |---|---|---|---|
-| Keven Wallace Miranda Batista | 202603039145 | @kevenwm3376 | **lider** |
+| Keven Wallace Miranda Batista | 202603039145 | @keven200-cpu | **lider** |
 | Francoarlesson Marcos de Faria | 202602672007 | @ | integrante |
 | Leodiney da Assunpção Fernandes Filho | 2026xxxxx | @ | integrante |
 | Jéssica Iara José de Souza | 202601553453 | @ | integrante |
