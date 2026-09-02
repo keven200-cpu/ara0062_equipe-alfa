@@ -48,4 +48,23 @@ tbody tr:nth-child(even) {
    background-color: #faf7f9;
 }
 
-/* terminar o passo 5 - aula 4 */
+fieldset {
+   border: 1px solid #e2d8de;
+   border-radius: 6px;
+   padding: 18px 20px 6px;
+}
+
+label {
+   display: block;
+   font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+   width: 100%;
+   padding: 10px 12px;
+   font-family: inherit;
+}
+
+button { cursor: pointer; }
