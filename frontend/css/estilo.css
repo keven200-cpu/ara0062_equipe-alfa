@@ -1,3 +1,51 @@
 body {
-   background-color: #ffe4e1;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   line-height: 1.6;
+   color: #231f20;
+   background-color: #f4eff2;
+
+   max-width: 860px;
+   margin: 0 auto;
+   padding: 0 20px 40px;
 }
+
+h1, h2, h3 {
+   color: #88005b;
+}
+
+a {
+   color:#88005b;
+   text-decoration: none;
+}
+
+nav ul {
+   list-style: none;
+   padding: 0;
+}
+
+nav li {
+   display: inline-block;
+}
+
+table {
+   border-collapse: collapse;
+   width: 100%;
+}
+
+th, td {
+   border: 1px solid #e2d8de;
+   padding: 10px 14px;
+   text-align: left;
+}
+
+thead th {
+   background-color: #053e60;
+   color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+   background-color: #faf7f9;
+}
+
+/* terminar o passo 5 - aula 4 /*
