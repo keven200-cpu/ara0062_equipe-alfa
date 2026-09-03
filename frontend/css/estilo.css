@@ -1,9 +1,18 @@
+:root {
+   --principal: #88005b;         /* cabeçalho em títulos */
+   --sobre-principal: #ffffff;   /* texto em cima dela */
+   --apoio: #053e60;             /* botões, destaques */
+   --fundo: #f4eff2;             /* fundo da página*/
+   --superficie: #ffffff;        /* cartões, conteúdo */
+   --texto: #231f20;             /* cor das letras */
+}
+
 body {
    font-family: Arial, Helvetica, sans-serif;
    font-size: 16px;
    line-height: 1.6;
-   color: #231f20;
-   background-color: #f4eff2;
+   color: var(--texto);
+   background-color: var(--fundo);
 
    max-width: 860px;
    margin: 0 auto;
@@ -11,11 +20,11 @@ body {
 }
 
 h1, h2, h3 {
-   color: #88005b;
+   color: var(--principal);
 }
 
 a {
-   color:#88005b;
+   color: var(--principal);
    text-decoration: none;
 }
 
@@ -39,13 +48,13 @@ th, td {
    text-align: left;
 }
 
-thead th {
-   background-color: #053e60;
-   color: #ffffff;
+thead, th {
+   background-color: var(--apoio);
+   color: var(--superficie);
 }
 
 tbody tr:nth-child(even) {
-   background-color: #faf7f9;
+   background-color: var(--fundo);
 }
 
 fieldset {
