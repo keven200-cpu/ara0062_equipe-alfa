@@ -1,11 +1,11 @@
-# Equipe Alfa — Escola Alfa de Idiomas
+# Equipe Alfa — Biblioteca Online
 
 Projeto da disciplina **ARA0062 · Desenvolvimento Web em HTML5, CSS, JavaScript
 e PHP** — Centro Universitário Newton Paiva, 2026/2.
 
 ## Tema do projeto
 
-Site de uma escola de idiomas de bairro: apresentação, cursos oferecidos com
+Site de uma biblioteca online: apresentação, livros oferecidos com
 valores e um formulário de contato.
 
 ## Equipe
