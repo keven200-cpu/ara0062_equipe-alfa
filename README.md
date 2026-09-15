@@ -17,7 +17,7 @@ valores e um formulário de contato.
 | Keven Wallace Miranda Batista | 202603039145 | @keven200-cpu | **lider** |
 | Francoarlesson Marcos de Faria | 202602672007 | @ | integrante |
 | Leodiney da Assunpção Fernandes Filho | 2026xxxxx | @ | integrante |
-| Jéssica Iara José de Souza | 202601553453 | @ | integrante |
+| Jéssica Iara José de Sousa | 202601553453 | @ | integrante |
 | Isabela Alves Barbosa | 202603482121 | @ | integrante |
 | Júlia Fernandes Miranda Cruz | 202602634503 | @ | integrante |
 | Gustavo Henrique Sampaio Silva | 202603014258 | @ | integrante |
@@ -74,7 +74,7 @@ Os dois pontos (`..`) sobem uma pasta: saem do `frontend/` antes de entrar no
 ## Andamento por ciclo
 
 - [x] Ciclo 3 — repositório, equipe e estrutura do projeto
-- [ ] Ciclo 3 — `frontend/`: página com listas, tabela e formulário de contato
-- [ ] Ciclos 4 e 5 — `frontend/css/`: identidade visual, layout e responsividade
+- [x] Ciclo 3 — `frontend/`: página com listas, tabela e formulário de contato
+- [x] Ciclos 4 e 5 — `frontend/css/`: identidade visual, layout e responsividade
 - [ ] Ciclos 6 e 7 — `frontend/js/`: interação, validação e dados via JSON
 - [ ] Ciclos 8 a 10 — `backend/`: formulário que grava e lista do banco
