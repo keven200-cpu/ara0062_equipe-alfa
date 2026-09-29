@@ -1,80 +1,95 @@
-# Equipe Alfa — Biblioteca Online
+# Biblioteca Online - Equipe Alfa
 
-Projeto da disciplina **ARA0062 · Desenvolvimento Web em HTML5, CSS, JavaScript
-e PHP** — Centro Universitário Newton Paiva, 2026/2.
+**Assunto:** Uma biblioteca online privada
+**Equipe:** Keven · Francoarlesson · Leodiney · Jéssica · Isabela · Júlia
+**Disciplina:** ARA0062 — Desenvolvimento Web em HTML5, CSS, JavaScript e PHP
+**Centro Universitário Newton Paiva · 2026/2**
 
-## Tema do projeto
+---
 
-Site de uma biblioteca online: apresentação, livros oferecidos com
-valores e um formulário de contato.
+## Sobre o projeto
 
-## Equipe
+"Um site de bibliotecas online, onde o cliente pode comprar e alugar livros de forma simples e rápido."
 
-**Líder:** Keven Wallace Miranda Batista
+Até o fim do semestre, o site terá uma página inicial, um catálogo de espécies
+com tabela de preços e porte, e um formulário de pedido
+de orçamento. Os pedidos enviados pelo formulário serão gravados em um banco de
+dados (nome, e-mail, tipo de ambiente e mensagem) e listados em uma página
+administrativa simples.
 
-| Nome completo | Matrícula | GitHub | Papel |
-|---|---|---|---|
-| Keven Wallace Miranda Batista | 202603039145 | @keven200-cpu | **lider** |
-| Francoarlesson Marcos de Faria | 202602672007 | @ | integrante |
-| Leodiney da Assunpção Fernandes Filho | 2026xxxxx | @ | integrante |
-| Jéssica Iara José de Sousa | 202601553453 | @ | integrante |
-| Isabela Alves Barbosa | 202603482121 | @ | integrante |
-| Júlia Fernandes Miranda Cruz | 202602634503 | @ | integrante |
-| Gustavo Henrique Sampaio Silva | 202603014258 | @ | integrante |
+---
 
-*Cada integrante acrescenta a **sua própria linha** nesta tabela, pelo GitHub.
-Esse é o commit que registra a sua participação.*
+## Identidade visual
 
-## Estrutura do projeto
+### Paleta
 
-*O projeto é separado em duas metades: **`frontend/`** guarda o que roda no
-navegador (HTML, CSS, JavaScript e imagens) e **`backend/`** guarda o que roda
-no servidor (PHP).*
+| Papel | Cor | Por que esta |
+|---|---|---|
+| `--principal` | `#111111` |
+| `--sobre-principal` | `#F5C518` |
+| `--apoio` | `#F5C518` | 
+| `--fundo` | `#FFFFFF` |
+| `--superficie` | `#FFFFFF` |
+| `--texto` | `#111111` |
+
+**Contraste conferido** em https://webaim.org/resources/contrastchecker/:
+
+```
+--texto sobre --superficie ......... 18,9:1
+--principal sobre --superficie ..... 18,9:1
+--sobre-principal sobre --principal  11,6:1
+```
+
+### Tipografia
+
+**Fonte:** "Poppins", com plano B `arial, sans-serif`
+**Pesos:** 400 e 600
+**Por que esta:** Poppins tem letras redondas e legíveis, o que combina com o tom do amarelo e do preto.
+
+**Escala:** `h1` 2.5rem · `h2` 1.75rem · `h3` 1.25rem · corpo 1rem
+
+### Segundo tema
+
+**Arquivo:** `frontend/css/tema-modo_escuro.css`
+**O que é:** modo escuro
+
+---
+
+## Como abrir
+
+1. Abra **a pasta inteira** no VS Code (*Arquivo → Abrir Pasta*).
+2. Abra `frontend/index.html` e clique em **Go Live** (extensão *Live Server*).
+
+---
+
+## Estrutura
 
 ```
 .
-├─ README.md               este arquivo
-├─ frontend/               tudo o que roda no navegador
-│   ├─ index.html          a página principal
+├─ README.md                 esta folha de rosto
+├─ frontend/                 tudo o que roda no navegador
+│   ├─ index.html
 │   ├─ css/
-│   │   └─ estilo.css      estilos do site (a partir da aula 04)
+│   │   ├─ estilo.css        a folha do projeto
+│   │   └─ tema-modo_escuro.css   o segundo tema: só variáveis
 │   ├─ js/
-│   │   └─ script.js       comportamento da página (a partir do ciclo 6)
+│   │   └─ script.js         vazio até o ciclo 6
 │   └─ img/
-│       └─ .gitkeep        arquivo vazio que segura a pasta no Git
-└─ backend/                tudo o que roda no servidor
+└─ backend/                  tudo o que roda no servidor
     ├─ config/
-    │   └─ conexao.php     conexão com o banco (a partir do ciclo 8)
-    └─ processa-contato.php  recebe o formulário (a partir do ciclo 8)
+    │   └─ conexao.php       vazio até o ciclo 8
+    └─ processa-contato.php
 ```
 
-*Os dois arquivos `.php` começam vazios, só com um comentário dentro. Eles
-existem desde já para que o lugar do código de servidor esteja combinado quando
-o PHP chegar.*
+---
 
-## Como abrir o projeto
+## Quem fez o quê
 
-*1. Baixe ou clone o repositório.
-2. Abra a pasta no VS Code (*Arquivo → Abrir Pasta* — a pasta do projeto
-   inteira, com `frontend/` e `backend/` dentro).
-3. Abra `frontend/index.html` e clique em **Go Live** (extensão Live Server).*
-
-Como o `index.html` está dentro de `frontend/`, os caminhos dele ficam assim:
-
-| Para chegar em | Escreva no `index.html` |
+| Integrante | Parte da folha de estilo |
 |---|---|
-| a folha de estilos | `css/estilo.css` |
-| o script | `js/script.js` |
-| uma imagem | `img/foto.jpg` |
-| um arquivo do backend | `../backend/processa-contato.php` |
-
-Os dois pontos (`..`) sobem uma pasta: saem do `frontend/` antes de entrar no
-`backend/`.
-
-## Andamento por ciclo
-
-- [x] Ciclo 3 — repositório, equipe e estrutura do projeto
-- [x] Ciclo 3 — `frontend/`: página com listas, tabela e formulário de contato
-- [x] Ciclos 4 e 5 — `frontend/css/`: identidade visual, layout e responsividade
-- [ ] Ciclos 6 e 7 — `frontend/js/`: interação, validação e dados via JSON
-- [ ] Ciclos 8 a 10 — `backend/`: formulário que grava e lista do banco
+| Keven | o `:root`, o `box-sizing` e o segundo tema |
+|  | tipografia: web font, escala e entrelinha |
+| Júlia | página e conteúdo |
+| Jéssica | cabeçalho e menu |
+| Francoarlesson | tabela |
+| Isabela | formulário e rodapé |
