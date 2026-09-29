@@ -6,8 +6,8 @@
    box-sizing: border-box;
    }
    --principal: #111111;         /* cabeçalho em títulos */
-   --sobre-principal: #F5C518;   /* texto em cima dela */
-   --apoio: #f5c518;             /* botões, destaques */
+   --sobre-principal: #b90e0a;   /* texto em cima dela */
+   --apoio: #b90e0a;             /* botões, destaques */
    --fundo: #ffffff;             /* fundo da página*/
    --superficie: #ffffff;        /* cartões, conteúdo */
    --texto: #111111;             /* cor das letras */
