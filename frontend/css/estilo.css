@@ -101,6 +101,39 @@ li {
 /* --------------------------------------------------------------------------
 4. Cabeçalho e menu — Jéssica Iara
 -------------------------------------------------------------------------- */
+header {
+  background-color: var(--principal);
+  color: var(--sobre-principal);
+  padding: var(--e-2) var(--e-4);
+}
+
+header h1 {
+  color: var(--sobre-principal);
+  font-size: 2rem;
+  margin: 0 0 var(--e-2);
+}
+
+nav ul {
+  display: flex;
+  gap: var(--e-2);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  color: var(--sobre-principal);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
 
 /* --------------------------------------------------------------------------
 5. Tabela — Francoarlesson Marcos
