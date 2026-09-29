@@ -43,7 +43,9 @@ administrativa simples.
 ### Tipografia
 
 **Fonte:** "Poppins", com plano B `arial, sans-serif`
+
 **Pesos:** 400 e 600
+
 **Por que esta:** Poppins tem letras redondas e legíveis, o que combina com o tom do amarelo e do preto.
 
 **Escala:** `h1` 2.5rem · `h2` 1.75rem · `h3` 1.25rem · corpo 1rem
@@ -51,7 +53,7 @@ administrativa simples.
 ### Segundo tema
 
 **Arquivo:** `frontend/css/tema-modo_escuro.css`
-**O que é:** modo escuro
+**O que é:** Modo escuro, com tema confortável para se ler à noite, por exemplo.
 
 ---
 
