@@ -1,7 +1,7 @@
 # Biblioteca Online - Equipe Alfa
 
 **Assunto:** Uma biblioteca online privada
-**Equipe:** Keven · Francoarlesson · Leodiney · Jéssica · Isabela · Júlia
+**Equipe:** Keven · Francoarlesson · Jéssica · Isabela · Júlia
 **Disciplina:** ARA0062 — Desenvolvimento Web em HTML5, CSS, JavaScript e PHP
 **Centro Universitário Newton Paiva · 2026/2**
 
