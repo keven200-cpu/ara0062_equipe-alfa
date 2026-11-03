@@ -64,33 +64,12 @@ administrativa simples.
 
 ---
 
-## Estrutura
-
-```
-.
-├─ README.md                 esta folha de rosto
-├─ frontend/                 tudo o que roda no navegador
-│   ├─ index.html
-│   ├─ css/
-│   │   ├─ estilo.css        a folha do projeto
-│   │   └─ tema-modo_escuro.css   o segundo tema: só variáveis
-│   ├─ js/
-│   │   └─ script.js         vazio até o ciclo 6
-│   └─ img/
-└─ backend/                  tudo o que roda no servidor
-    ├─ config/
-    │   └─ conexao.php       vazio até o ciclo 8
-    └─ processa-contato.php
-```
-
----
-
 ## Quem fez o quê
 
 | Integrante | Parte da folha de estilo |
 |---|---|
 | Keven | o `:root`, o `box-sizing` e o segundo tema |
-|  | tipografia: web font, escala e entrelinha |
+| Keven | tipografia: web font, escala e entrelinha |
 | Júlia | página e conteúdo |
 | Jéssica | cabeçalho e menu |
 | Francoarlesson | tabela |
