@@ -1,8 +1,50 @@
-:root {
-    --principal: #dfa03f;
-    --sobre-principal: #1b1016; /* agora ele inverte */
-    --apoio: #ff8a7a;
-    --fundo: #1b1016;
-    --superficie: #2a1a22;
-    --texto: #f0e8ec;
+:root[data-tema="escuro"] {
+  --principal: #F5C518;
+  --sobre-principal: #111111;   /* 11,6:1 sobre --principal */
+  --apoio: #F5C518;
+  --fundo: #121212;
+  --superficie: #1E1E1E;
+  --texto: #F5F5F5;
+ 
+  --sobre-apoio: #111111;
+  --texto-suave: #C2C2C2;
+  --borda: #3A3A3A;
+  --foco: #F5C518;
+  --cabecalho-fundo: #000000;
+  --cabecalho-texto: #F5F5F5;
+  --rodape-fundo: #000000;
+  --rodape-texto: #F5F5F5;
+ 
+  color-scheme: dark;
+}
+ 
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema="claro"]) {
+    --principal: #F5C518;
+    --sobre-principal: #111111;
+    --apoio: #F5C518;
+    --fundo: #121212;
+    --superficie: #1E1E1E;
+    --texto: #F5F5F5;
+ 
+    --sobre-apoio: #111111;
+    --texto-suave: #C2C2C2;
+    --borda: #3A3A3A;
+    --foco: #F5C518;
+    --cabecalho-fundo: #000000;
+    --cabecalho-texto: #F5F5F5;
+    --rodape-fundo: #000000;
+    --rodape-texto: #F5F5F5;
+ 
+    color-scheme: dark;
+  }
+}
+ 
+/* Ajustes que variáveis não resolvem */
+:root[data-tema="escuro"] button[aria-label]:hover { color: var(--sobre-apoio); }
+:root[data-tema="escuro"] img { filter: brightness(0.92); }
+ 
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema="claro"]) button[aria-label]:hover { color: var(--sobre-apoio); }
+  :root:not([data-tema="claro"]) img { filter: brightness(0.92); }
 }
